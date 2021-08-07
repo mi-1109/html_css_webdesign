@@ -85,3 +85,14 @@ header {
   width: 960px;
   margin: 0 auto;
 }
+
+/* フッターのスタイル */
+footer {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+footer small {
+  font-size: 12px;
+}
