@@ -77,6 +77,14 @@ header {
   text-decoration: none;
 }
 
+#index {
+  background-image: url(../images/bg-index.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 /* コンテンツのスタイル */
 #wrap {
   clear: both;
@@ -126,11 +134,16 @@ header {
 
 /* フッターのスタイル */
 footer {
-  text-align: center;
   color: #ffffff;
   padding: 20px 0;
 }
 
 footer small {
   font-size: 12px;
+}
+
+#index footer {
+  width: 960px;
+  margin: 150px auto 0 auto;
+  text-align: left;
 }
