@@ -136,14 +136,11 @@ header {
 footer {
   color: #ffffff;
   padding: 20px 0;
+  width: 960px;
+  margin: 150px auto 0 auto;
+  text-align: left;
 }
 
 footer small {
   font-size: 12px;
-}
-
-#index footer {
-  width: 960px;
-  margin: 150px auto 0 auto;
-  text-align: left;
 }
