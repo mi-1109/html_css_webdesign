@@ -235,3 +235,42 @@ table {
   border-spacing: 0; /* 隣り合ったセルのボーダーとボーダーの間隔を指定する */
   border-collapse: collapse; /* 隣り合ったセルのボーダーを重ねて表示する（collapse）か、隙間を開けて表示するか（separate）を指定 */
 }
+
+/* PORTFOLIOのスタイル */
+#portfolio {
+  background-image: url(../images/bg-portfolio.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+.main {
+  width: 700px;
+  margin: 0 10px;
+  float: left;
+}
+
+.sidebar {
+  width: 200px;
+  margin: 0 10px 0 30px;
+  float: right;
+  font-family: "Bitter", serif;
+}
+
+a img:hover {
+  opacity: 0.8;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.sidebar ul a {
+  color: #333333;
+}
